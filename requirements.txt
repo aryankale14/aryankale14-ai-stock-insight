@@ -1,0 +1,4 @@
+streamlit
+agno
+google-genai
+googlesearch-python
