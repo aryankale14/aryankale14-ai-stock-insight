@@ -2,3 +2,4 @@ streamlit
 agno
 google-genai
 googlesearch-python
+pycountry
