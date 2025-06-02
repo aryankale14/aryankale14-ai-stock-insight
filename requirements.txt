@@ -1,3 +1,0 @@
-streamlit
-agno
-google-genai
