@@ -1,7 +1,7 @@
 
-from agno.agent import Agent, RunResponse
-from agno.models.google import Gemini
-from agno.tools.googlesearch import GoogleSearch
+from phi.agent import Agent, RunResponse
+from phi.models.google import Gemini
+from phi.tools.googlesearch import GoogleSearch
 
 agent = Agent(
     model=Gemini(id="gemini-2.5-flash-preview-05-20"),
