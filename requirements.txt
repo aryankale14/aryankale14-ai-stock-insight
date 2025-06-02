@@ -1,4 +1,0 @@
-streamlit
-agno
-google-genai
-googlesearch
