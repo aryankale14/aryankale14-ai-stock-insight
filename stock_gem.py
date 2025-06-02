@@ -2,7 +2,11 @@
 from phi.agent import Agent, RunResponse
 from phi.model.google import Gemini
 from phi.tools.googlesearch import GoogleSearch
+import os
+import streamlit as st
 
+# Set the key from secrets
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 agent = Agent(
     model=Gemini(id="gemini-2.5-flash-preview-05-20"),
     tools=[GoogleSearch()],
