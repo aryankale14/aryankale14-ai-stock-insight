@@ -5,3 +5,4 @@ googlesearch-python
 pycountry
 requests
 phidata
+google-generativeai
