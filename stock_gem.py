@@ -1,6 +1,6 @@
 
 from phi.agent import Agent, RunResponse
-from phi.models.google import Gemini
+from phi.model.google import Gemini
 from phi.tools.googlesearch import GoogleSearch
 
 agent = Agent(
